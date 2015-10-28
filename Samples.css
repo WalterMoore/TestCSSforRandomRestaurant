@@ -1,40 +1,74 @@
 h1 {
-	font-size: 10em;
-	font-weight: bold;
+  font-size: 10em;
+  font-weight: bold;
 }
-
 p {
-	font-size: 2em;
+  font-size: 2em;
 }
-
 .container {
-	width: 90%;
-	height: 50%;
-	padding: 1em;
-	margin: 1em 1em 1em 1em;
-	border: .5em solid black;
+  width: 90%;
+  height: 50%;
+  padding: 1em;
+  margin: 1em 1em 1em 1em;
+  border: .5em solid black;
 }
-
-.mysterious{
-	background-color: gray;
-	font-family: fantasy;
-	color: burlywood
+.mysterious {
+  background-color: gray;
+  font-family: fantasy;
+  color: burlywood;
 }
-
-.jokey{
-	background-color: darkorange;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	color: yellow;
+.jokey {
+  background-color: darkorange;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: yellow;
 }
-
-.challenge{
-	background-color: darkblue;
-	font-family: 'Times New Roman', Times, serif;
-	color: white;
+.challenge {
+  background-color: darkblue;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
-
-.serious{
-	background-color: darkkhaki;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color: black;
+.serious {
+  background-color: darkkhaki;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+.newsboy {
+  background-color: antiquewhite;
+  font-family: Courier New, Courier, monospace;
+  color: darkslategray;
+}
+.obnoxious {
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  color: orangered;
+}
+.obnoxious h1:hover {
+  color: #ffff00;
+}
+.obnoxious:hover {
+  background-color: #ffa500;
+}
+.map {
+  background-color: olive;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blanchedalmond;
+}
+.chart {
+  background-color: seagreen;
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightcyan;
+}
+button {
+  width: 20%;
+  height: 3em;
+  border-radius: 5px;
+  border: .1em solid black;
+  background-color: white;
+  color: black;
+}
+@media only screen and (max-width: 500px) {
+  button {
+    width: 30%;
+    height: 4em;
+  }
 }
