@@ -47,10 +47,10 @@ p {
   color: orangered;
 }
 .obnoxious h1:hover {
-  color: #ffff00;
+  color: #800080;
 }
 .obnoxious:hover {
-  background-color: #ffa500;
+  background-color: #800080;
 }
 .map {
   background-color: olive;
@@ -68,9 +68,9 @@ p {
   color: red;
 }
 .diner2 {
-  background-color: yellow;
+  background-color: lightyellow;
   font-family: Diner;
-  color: greenyellow;
+  color: seagreen;
 }
 button {
   width: 20%;
